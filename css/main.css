@@ -585,6 +585,49 @@ h6 {
   font-size: 13px;
   text-align: center;
 }
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.footer-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #149ddd;
+  transition: width 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
+}
+
+.credits {
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 576px) {
+  .footer-links a {
+    display: block;
+    margin: 8px 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Preloader

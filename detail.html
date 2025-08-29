@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Détail du projet — Simulation Fibre Optique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap & Swiper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: rgb(246, 247, 248);
+            color: #080808;
+        }
+
+        .project-header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #0d1b3d;
+            color: #cce4ff;
+        }
+
+        .project-header h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+        }
+
+        .swiper {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(27, 20, 100, 0.87);
+        }
+
+        .swiper-slide img,
+        .swiper-slide video {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .project-section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        .project-section h2 {
+            margin-top: 40px;
+            font-weight: 600;
+            color: #06235c;
+        }
+
+        .btn-nav {
+            margin-top: 40px;
+        }
+
+        .btn-nav a {
+            margin: 0 10px;
+            color: white;
+            background-color: #17397d;
+        }
+
+        .btn-nav a:hover {
+            border: #1739e4 1px solid;
+            transition: 0.7s;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bi {
+            
+            margin-right: 8px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <div class="project-header">
+        <h1>Simulation Fibre Optique</h1>
+        <p>Projet académique réalisé avec Optisystem — Analyse de signal et modélisation réseau</p>
+    </div>
+
+    <!-- Contenu -->
+    <div class="project-section">
+
+        <!-- Slider Swiper -->
+        <div class="swiper mySwiper mb-4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/simulation2.png" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation3.png" alt="Diagramme optique">
+                </div>
+                <div class="swiper-slide">
+                    <video autoplay muted controls>
+                        <source src="img/fibre-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Description -->
+        <h2><i class="bi bi-graph-up"></i> Objectif du projet</h2>
+        <p>
+            Ce projet visait à simuler un réseau FTTH à l’aide du logiciel Optisystem. J’ai configuré des modules
+            optiques (laser, multiplexeurs, photodétecteurs) pour analyser la qualité du signal, la puissance et le
+            bruit. L’objectif était de proposer une architecture performante et documentée.
+        </p>
+        <!-- Informations clés -->
+        <ul class="project-meta list-unstyled">
+            <li><strong><i class="bi bi-geo-alt"></i> Lieu :</strong> IUT de Cachan, Île-de-France</li>
+            <li><strong><i class="bi bi-calendar-event"></i> Date :</strong> Février à Avril 2025</li>
+            <li><strong><i class="bi bi-clock"></i> Durée :</strong> 2 mois</li>
+            <li><strong><i class="bi bi-person"></i> Encadré par :</strong> Département Réseaux & Télécom</li>
+        </ul>
+
+        <!-- Compétences -->
+        <h2><i class="bi bi-tools"></i> Compétences mobilisées</h2>
+        <ul>
+            <li>Modélisation de réseaux optiques</li>
+            <li>Utilisation avancée d’Optisystem</li>
+            <li>Analyse de performance (SNR, puissance, dispersion)</li>
+            <li>Rédaction technique et présentation orale</li>
+        </ul>
+
+        <!-- Résultats -->
+        <h2><i class="bi bi-graph-up"></i> Résultats obtenus</h2>
+        <p>
+            Le projet a permis de valider une architecture FTTH avec un débit optimal, une atténuation maîtrisée et une
+            documentation complète. Il a été présenté devant un jury académique avec succès.
+        </p>
+
+        <!-- Navigation -->
+        <div class="btn-nav text-center">
+            <a href="index.html" class="btn btn-outline-blue"><i class="bi bi-house"></i> Accueil</a>
+            <a href="index.html#portfolio" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Retour aux
+                projets</a>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper(".mySwiper", {
+            loop: true,
+            speed: 600,
+            autoplay: {
+                delay: 4000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
