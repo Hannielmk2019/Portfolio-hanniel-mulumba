@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Détail du projet — Simulation Fibre Optique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta content="Ce contenu présente brièvement la personne que je suis,
+    tant au niveau personnel que professionnel, en illustrant mon parcours
+    de formation et mes expériences professionnelles" name="description">
+
+    <meta content="Portfolio,cv,hanniel,mulumba,Etudiant,IUT,Aix-Marseille,Orsay,Paris,Université,Université Paris-Saclay,
+    Université Paris-Saclay Orsay,Université Aix-Marseille,Licence Informatique,BUT Informatique,Informatique,
+    Développeur,Développeur Web,Développeur Full Stack,Développeur Front-End,Développeur Back-End, Ingénieur, Réseaux,
+    cybersécurté,IT, Technicien supérieur, Administrateur, Architecte réseaux, sécurité réseaux, programmeur,
+    France,Paris, Ile-de-france, Stage, Alternance" name="keywords">
+
+    <meta name="author" content="Hanniel Mulumba">
+
+    <!-- Favicons -->
+    <link href="img/iconehmk.png" rel="icon">
+    <link href="img/iconehmk.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap & Swiper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: rgb(246, 247, 248);
+            color: #080808;
+        }
+
+        .project-header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #0d1b3d;
+            color: #cce4ff;
+        }
+
+        .project-header h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+            color: #fbfbfc;
+        }
+
+        .swiper {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(27, 20, 100, 0.87);
+        }
+
+        .swiper-slide img,
+        .swiper-slide video {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .project-section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        .project-section h2 {
+            margin-top: 40px;
+            font-weight: 600;
+            color: #06235c;
+        }
+
+        .btn-nav {
+            margin-top: 40px;
+        }
+
+        .btn-nav a {
+            margin: 0 10px;
+            color: white;
+            background-color: #17397d;
+        }
+
+        .btn-nav a:hover {
+            border: #1739e4 1px solid;
+            transition: 0.7s;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bi {
+
+            margin-right: 8px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <div class="project-header">
+        <h1 class="project-title">Évaluation des performances des réseaux FTTH-PON et GPON</h1>
+        <p>Simulations sous OptiSystem — Modélisation réseau et Analyse de signal</p>
+    </div>
+
+    <!-- Contenu -->
+    <div class="project-section">
+
+        <!-- Slider Swiper -->
+        <div class="swiper mySwiper mb-4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/simulation5.jpg" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation1.png" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation1.1.png" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation2.png" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation2.2.png" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation3.png" alt="Simulation réseau fibre optique">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/simulation4.png" alt="Simulation réseau fibre optique">
+                </div>
+                <!--<div class="swiper-slide">
+                    <video autoplay muted controls>
+                        <source src="img/fibre-video.mp4" type="video/mp4">
+                    </video>
+                </div>-->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Description -->
+        <div class="divider my-4">
+            <h2><i class="bi bi-card-text"></i> Description du projet</h2>
+            <p>
+                Projet académique réalisé au sein de Tunisie Télécom, portant sur l’étude et la simulation des
+                réseaux à fibre optique de type FTTH (Fiber To The Home), avec les normes PON et GPON. Ce travail a
+                combiné une analyse théorique approfondie et une simulation pratique sur le logiciel OptiSystem, afin
+                d’évaluer la qualité, la stabilité et la performance de ces technologies face aux limites du réseau XDSL
+                encore utilisé en Tunisie.
+            </p>
+        </div>
+
+        <div class="divider my-4">
+            <h2><i class="bi bi-graph-up"></i> Objectif du projet</h2>
+            <ol type="1">
+                <li>Comparer les performances des technologies FTTH-PON et GPON (débit, latence, stabilité, atténuation,
+                    bande passante).</li>
+                <li>Proposer une solution technologique fiable pour remplacer l’ADSL/XDSL par la fibre optique dans le
+                    contexte tunisien.</li>
+                <li>Optimiser la qualité de service et garantir un haut débit durable pour les particuliers et
+                    entreprises.</li>
+                <li>Documenter les résultats et présenter les conclusions</li>
+            </ol>
+        </div>
+
+        <!-- Informations clés -->
+        <div class="divider my-4">
+            <h2><i class="bi bi-info-circle"></i> Informations clés</h2>
+            <ul style="text-decoration: none;list-style-type: none;">
+                <li><strong><i class="bi bi-geo-alt"></i> Lieu :</strong>Tunisie Telecom, Tunis, Tunisie</li>
+                <li><strong><i class="bi bi-calendar-event"></i> Date :</strong> Avril - Juillet 2023</li>
+                <li><strong><i class="bi bi-clock"></i> Durée :</strong> 3 mois</li>
+                <li><strong><i class="bi bi-people"></i> Encadrement :</strong> ITEAM University & Tunisie Télécom</li>
+                <li><strong><i class="bi bi-mortarboard-fill"></i> Cadre du projet:</strong> Stage</li>
+            </ul>
+        </div>
+
+        <!-- Compétences -->
+        <div class="divider my-4">
+            <h2><i class="bi bi-tools"></i> Compétences mobilisées</h2>
+            <ul style="text-decoration: none;list-style-type: none;">
+                <li><i class="bi bi-check-circle"></i>Compétences en réseaux de télécommunications</li>
+                <li><i class="bi bi-check-circle"></i>Maîtrise des architectures PON et GPON</li>
+                <li><i class="bi bi-check-circle"></i>Utilisation de l’outil de simulation OptiSystem</li>
+                <li><i class="bi bi-check-circle"></i>Analyse et interprétation de bilans optiques (BER, atténuation,
+                    bande passante)</li>
+                <li><i class="bi bi-check-circle"></i>Rédaction technique et communication scientifique</li>
+            </ul>
+        </div>
+
+        <!-- Résultats -->
+        <div class="divider my-4">
+            <h2><i class="bi bi-graph-up"></i> Résultats obtenus</h2>
+            <ul style="text-decoration: none;list-style-type: none;">
+                <li><i class="bi bi-check-circle-fill"></i>Simulation réussie de scénarios FTTH-PON et GPON sous
+                    OptiSystem</li>
+                <li><i class="bi bi-check-circle-fill"></i>Validation de la supériorité de la technologie GPON (débits
+                    jusqu’à 2,5 Gbps/1,25 Gbps, faible latence, grande stabilité)</li>
+                <li><i class="bi bi-check-circle-fill"></i>Recommandations techniques pour le déploiement de la fibre (FTTH-GPON) en Tunisie</li>
+                <li><i class="bi bi-check-circle-fill"></i>Validation du rapport et de la soutenance.</li>
+            </ul>
+        </div>
+        <!-- Navigation -->
+        <div class="btn-nav text-center">
+            <a href="index.html" class="btn btn-outline-blue"><i class="bi bi-house"></i> Accueil</a>
+            <a href="index.html#portfolio" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Retour aux
+                projets</a>
+        </div>
+
+    </div>
+
+    <footer id="footer" class="footer position-relative light-background">
+        <div class="container">
+            <div class="footer-content text-center">
+                <p class="copyright">
+                    © 2025 <strong>Hanniel Mulumba</strong> — Portfolio professionnel. Tous droits réservés.
+                </p>
+                <p class="designer">
+                    Conçu avec passion par <strong>Hanniel Mulumba</strong>
+                </p>
+                <div class="footer-links">
+                    <a href="mentionlegale.html">Mentions légales</a>
+                    <a href="confidentialite.html">Confidentialité</a>
+                    <a href="index.html#contact">Contact</a>
+                    <a href="https://www.linkedin.com/in/hanniel-mulumba/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper(".mySwiper", {
+            loop: true,
+            speed: 600,
+            autoplay: {
+                delay: 4000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
