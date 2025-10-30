@@ -25,7 +25,7 @@ Ce site présente mes projets techniques, mes expériences professionnelles, et 
 
 ## 📬 Me contacter
 
-- 💼 LinkedIn : [linkedin.com/in/hannielmulumba](https://www.linkedin.com/in/hannielmulumba)
+- 💼 LinkedIn : [linkedin.com/in/hannielmulumba](https://www.linkedin.com/in/hanniel-mulumba/)
 - 📧 Email : mulumbamk2000@gmail.com
 
 ---
